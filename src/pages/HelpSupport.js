@@ -9,7 +9,7 @@ function HelpSupport() {
         Home / Help & Support
       </div>
 
-      <div className="page-header">
+      <div className="page-header"> 
 
         <h1>
           Help & Support
