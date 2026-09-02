@@ -343,7 +343,7 @@ function Home() {
         <div className="section-heading">
 
           <h2>
-            Popular Medicines
+            POPULAR MEDICINES 
           </h2>
 
           <Link to="/category/medicines">
