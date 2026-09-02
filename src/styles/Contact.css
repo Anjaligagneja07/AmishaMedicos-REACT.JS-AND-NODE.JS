@@ -26,26 +26,25 @@
 
 .contact-hero {
   width: 100%;
-
   background: linear-gradient(
     90deg,
     #f7fcfb 0%,
     #f2faf9 55%,
     #ffffff 100%
   );
+  overflow: hidden;
 }
 
 .contact-hero-container {
   width: 100%;
-  max-width: 1400px;
+  max-width: 1520px;
 
-  min-height: 215px;
+  min-height: 300px;
 
-  margin: auto;
+  margin: 0 auto;
 
   display: grid;
-
-  grid-template-columns: 58% 42%;
+  grid-template-columns: 52% 48%;
 
   align-items: center;
 }
@@ -56,34 +55,11 @@
 ========================================================= */
 
 .contact-hero-content {
-  padding: 25px 35px 25px 40px;
+  padding: 35px 40px;
 }
 
 
-/* BREADCRUMB */
-
-.contact-breadcrumb {
-  display: flex;
-
-  align-items: center;
-
-  gap: 10px;
-
-  margin-bottom: 18px;
-
-  font-size: 13px;
-
-  color: #37535b;
-}
-
-.contact-breadcrumb span:nth-child(2) {
-  color: #7d979b;
-
-  font-size: 18px;
-}
-
-
-/* MAIN HEADING */
+/* CONTACT US HEADING */
 
 .contact-hero-content h1 {
   margin: 0;
@@ -95,7 +71,15 @@
   font-weight: 700;
 
   line-height: 1.15;
+
+  display: inline-block;
+
+  position: relative;
+
+  width: fit-content;
 }
+
+/* HEART */
 
 .contact-hero-content h1 span {
   font-size: 30px;
@@ -107,11 +91,11 @@
 /* SUB HEADING */
 
 .contact-hero-content h2 {
-  margin: 8px 0 10px;
+  margin: 20px 0 10px;
 
   color: #173f49;
 
-  font-size: 21px;
+  font-size: 22px;
 
   font-weight: 700;
 }
@@ -126,7 +110,7 @@
 
   color: #3b5259;
 
-  font-size: 14px;
+  font-size: 16px;
 
   line-height: 1.7;
 }
@@ -138,24 +122,22 @@
 
 .contact-hero-image {
   width: 100%;
-
-  height: 215px;
-
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   overflow: hidden;
+  position: relative;
+  background: #f2faf9;
 }
 
 .contact-hero-image img {
   width: 100%;
-
   height: 100%;
-
   display: block;
-
   object-fit: cover;
-
   object-position: center;
 }
-
 
 /* =========================================================
    CONTACT MAIN
@@ -163,21 +145,24 @@
 
 .contact-main {
   width: 100%;
-
-  padding: 18px 30px 25px;
+background: #ffffff;
+   padding: 25px 30px 30px;
 }
 
 .contact-main-container {
   width: 100%;
+
   max-width: 1400px;
 
-  margin: auto;
+  margin: 0 auto;
 
   display: grid;
 
   grid-template-columns: 37% 63%;
 
-  gap: 20px;
+  gap: 24px;
+
+  align-items: stretch;
 }
 
 
@@ -190,7 +175,8 @@
 
   flex-direction: column;
 
-  gap: 6px;
+  gap: 22px;
+  height: 100%;
 }
 
 .contact-info-card {
@@ -233,7 +219,7 @@
 
   background: #087d71;
 
-  font-size: 20px;
+  font-size: 21px;
 }
 
 
@@ -244,7 +230,7 @@
 
   color: #075e59;
 
-  font-size: 15px;
+  font-size: 16px;
 
   font-weight: 700;
 }
@@ -254,7 +240,7 @@
 
   color: #263e45;
 
-  font-size: 13px;
+  font-size: 14px;
 
   line-height: 1.5;
 }
@@ -266,7 +252,7 @@
 
   color: #455c62;
 
-  font-size: 12px;
+  font-size: 13px;
 
   line-height: 1.4;
 }
@@ -277,11 +263,11 @@
 ========================================================= */
 
 .contact-form-container {
-  padding: 20px 25px;
-
+  padding: 25px 28px;
+height: 100%;
   background: #ffffff;
 
-  border-radius: 9px;
+  border-radius: 10px;
 
   box-shadow: 0 3px 14px rgba(0, 80, 75, 0.09);
 }
@@ -414,7 +400,7 @@
 
   font-family: inherit;
 
-  font-size: 13px;
+  font-size: 15px;
 
   font-weight: 600;
 
@@ -438,14 +424,12 @@
 
 .store-section {
   width: 100%;
-
   padding: 0 30px 30px;
 }
 
 .store-container {
   width: 100%;
   max-width: 1400px;
-
   min-height: 220px;
 
   margin: auto;
@@ -467,7 +451,7 @@
 .store-map {
   width: 100%;
 
-  height: 220px;
+  height: 300px;
 
   overflow: hidden;
 }
@@ -496,7 +480,7 @@
 
   color: #075e59;
 
-  font-size: 21px;
+  font-size: 25px;
 
   font-weight: 700;
 }
@@ -506,7 +490,7 @@
 
   color: #3c555c;
 
-  font-size: 13px;
+  font-size: 17px;
 
   line-height: 1.6;
 }
@@ -537,13 +521,13 @@
 
   color: #087d71;
 
-  font-size: 16px;
+  font-size: 17px;
 }
 
 .store-feature span {
   color: #304950;
 
-  font-size: 12px;
+  font-size: 16px;
 }
 
 
@@ -583,11 +567,11 @@
   }
 
   .contact-hero-content {
-    padding: 25px 30px 20px;
+    padding: 35px 30px 25px;
   }
 
   .contact-hero-image {
-    height: 250px;
+    height: 280px;
   }
 
 
@@ -595,6 +579,7 @@
 
   .contact-main-container {
     grid-template-columns: 1fr;
+    gap: 20px;
   }
 
 
@@ -635,17 +620,17 @@
   /* HERO */
 
   .contact-hero-content {
-    padding: 22px 18px;
-  }
-
-  .contact-breadcrumb {
-    font-size: 11px;
-
-    margin-bottom: 14px;
+    padding: 28px 18px 25px;
   }
 
   .contact-hero-content h1 {
     font-size: 32px;
+  }
+
+   .contact-hero-content h1::after {
+    width: 45px;
+    height: 3px;
+    bottom: -7px;
   }
 
   .contact-hero-content h1 span {
@@ -654,8 +639,7 @@
 
   .contact-hero-content h2 {
     font-size: 18px;
-
-    margin-top: 8px;
+    margin: 17px 0 9px;
   }
 
   .contact-hero-content p {
@@ -667,12 +651,14 @@
   .contact-hero-image {
     height: 200px;
   }
-
+   .contact-hero-image img {
+    object-fit: contain;
+  }
 
   /* MAIN */
 
   .contact-main {
-    padding: 15px 14px 20px;
+    padding: 18px 14px 25px;
   }
 
   .contact-main-container {
