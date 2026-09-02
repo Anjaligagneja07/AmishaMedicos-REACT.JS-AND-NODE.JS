@@ -303,8 +303,8 @@ function Home() {
 
       {/* ================= CATEGORIES ================= */}
 
-      <section className="section-container">
-
+      <section className="section-container categories-section">
+        <div className="categories-row">
         <div className="categories-grid">
 
           {categories.map((category) => (
@@ -332,6 +332,15 @@ function Home() {
           ))}
 
         </div>
+         <Link
+      to="/category/medicines"
+      className="categories-view-all"
+    >
+      View All
+      <FiArrowRight />
+    </Link>
+
+  </div>
 
       </section>
 

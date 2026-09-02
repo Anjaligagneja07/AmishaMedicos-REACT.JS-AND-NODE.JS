@@ -258,6 +258,39 @@
   gap: 12px;
 }
 
+.categories-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.categories-grid {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 12px;
+}
+
+.categories-view-all {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #087b70;
+  font-size: 15px;
+  font-weight: 600;
+   text-decoration: none;
+  white-space: nowrap;
+}
+
+.categories-view-all svg {
+  font-size: 17px;
+}
+
+.categories-view-all:hover {
+  color: #055f57;
+}
+
 .category-card {
   min-height: 105px;
 
@@ -328,29 +361,53 @@
 ================================== */
 
 .section-heading {
+  position: relative;
   display: flex;
-
-  justify-content: space-between;
   align-items: center;
-
+  justify-content: center;
   margin-bottom: 12px;
+  width: 100%;
 }
 
 .section-heading h2 {
   margin: 0;
-
   font-size: 19px;
+  color: #07675f;
+  position: relative;
+  padding-bottom: 6px;
+}
+
+.section-heading h2::after {
+  content: "";
+  position: absolute;
+
+  left: 50%;
+  bottom: 0;
+
+  transform: translateX(-50%);
+
+  width: 95px;
+  height: 3px;
+
+  background: #078674;
+  border-radius: 5px;
 }
 
 .section-heading a {
+  position: absolute;
+  right: 0;
   color: #087b70;
   font-size: 15px;
+  font-weight: 600;
   display: flex;
   align-items: center;
   gap: 5px;
+  text-decoration: none;
 }
 
-
+.section-heading a:hover {
+  color: #055f57;
+}
 /* ==================================
    PRODUCTS
 ================================== */
@@ -403,7 +460,7 @@
 }
 
 .product-image {
-  height: 125px;
+  height: 140px;
 
   display: flex;
 
@@ -415,7 +472,7 @@
 
 .product-image img {
   max-width: 100%;
-  max-height: 110px;
+  max-height: 120px;
 
   object-fit: contain;
 }
@@ -425,7 +482,7 @@
 }
 
 .product-info h3 {
-  font-size: 14px;
+  font-size: 15px;
 
   margin: 0 0 5px;
 
@@ -437,7 +494,7 @@
 }
 
 .quantity {
-  font-size: 12px;
+  font-size: 13px;
 
   color: #777;
 
@@ -461,13 +518,13 @@
 .price-row del {
   color: #999;
 
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .price-row span {
   color: #078674;
 
-  font-size: 12px;
+  font-size: 13px;
 
   font-weight: 600;
 }
@@ -495,7 +552,7 @@
 
   cursor: pointer;
 
-  font-size: 13px;
+  font-size: 14px;
 }
 
 
