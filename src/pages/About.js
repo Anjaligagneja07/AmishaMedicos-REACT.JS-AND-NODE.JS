@@ -146,7 +146,7 @@ const About = () => {
             </div>
 
             <div className="mission-content">
-              <h3>Our Mission</h3>
+              <h3>OUR MISSION</h3>
 
               <p>
                 To deliver genuine medicines and healthcare
@@ -177,7 +177,7 @@ const About = () => {
             </div>
 
             <div className="vision-content">
-              <h3>Our Vision</h3>
+              <h3>OUR VISION</h3>
 
               <p>
                 To become India’s most trusted online
@@ -197,7 +197,7 @@ const About = () => {
       {/* ================= WHY CHOOSE US ================= */}
       <section className="why-section">
 
-        <div className="section-heading">
+        <div className="section-heading1">
           <h2>Why Choose Amisha Medicos?</h2>
           <div className="heading-line"></div>
         </div>

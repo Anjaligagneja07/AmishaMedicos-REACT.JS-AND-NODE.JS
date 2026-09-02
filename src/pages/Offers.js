@@ -147,11 +147,6 @@ function Offers() {
     <section className="main-offers-section">
 
         <div className="main-offer-banner medicine-offer">
-
-          <button className="offer-slider-btn offer-prev">
-            <FiChevronLeft />
-          </button>
-
           <div className="main-offer-content">
 
             <span className="main-offer-discount">
