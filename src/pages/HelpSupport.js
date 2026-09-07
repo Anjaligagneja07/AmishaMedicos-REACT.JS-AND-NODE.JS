@@ -4,11 +4,6 @@ function HelpSupport() {
 
   return (
     <div className="inner-page">
-
-      <div className="breadcrumb">
-        Home / Help & Support
-      </div>
-
       <div className="page-header"> 
 
         <h1>
@@ -28,11 +23,11 @@ function HelpSupport() {
         </h2>
 
         <p>
-          Call us at +91 98765 43210
+          Call us : +91 98765 43210
         </p>
 
         <p>
-          Email us at support@amishamedicos.com
+          Email us : support@amishamedicos.com
         </p>
 
       </div>

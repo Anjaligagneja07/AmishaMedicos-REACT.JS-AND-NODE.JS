@@ -4,11 +4,6 @@ function TrackOrder() {
 
   return (
     <div className="inner-page">
-
-      <div className="breadcrumb">
-        Home / Track Order
-      </div>
-
       <div className="page-header">
 
         <h1>

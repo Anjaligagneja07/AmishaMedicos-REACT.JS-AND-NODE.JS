@@ -1,21 +1,5 @@
 import React from "react";
-import {
-  FiShield,
-  FiTruck,
-  FiCreditCard,
-  FiHeadphones,
-  FiUsers,
-  FiPackage,
-  FiMapPin,
-  FiTarget,
-  FiEye,
-  FiTag,
-  FiRefreshCw,
-  FiHeart,
-  FiLock,
-  FiCheckCircle,
-} from "react-icons/fi";
-
+import {FiShield,FiTruck,FiCreditCard,FiHeadphones,FiUsers,FiPackage,FiMapPin,FiTarget,FiEye,FiTag,FiRefreshCw,FiHeart,FiLock,FiCheckCircle,} from "react-icons/fi";
 import "../styles/About.css";
 
 import heroImage from "../Images/about-hero.png";
