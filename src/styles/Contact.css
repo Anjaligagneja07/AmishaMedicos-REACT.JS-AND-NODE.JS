@@ -56,27 +56,18 @@
 
 .contact-hero-content {
   padding: 35px 40px;
-  
 }
-
 
 /* CONTACT US HEADING */
 
 .contact-hero-content h1 {
   margin: 0;
-
   color: #075e59;
-
   font-size: 42px;
-
   font-weight: 700;
-
   line-height: 1.15;
-
   display: inline-block;
-
   position: relative;
-
   width: fit-content;
 }
 
@@ -84,7 +75,6 @@
 
 .contact-hero-content h1 span {
   font-size: 30px;
-
   margin-left: 5px;
 }
 
@@ -93,11 +83,8 @@
 
   .contact-hero-content h2 {
   margin: 20px 0 10px;
-
   color: #173f49;
-
   font-size: 22px;
-
   font-weight: 700;
 }
 
@@ -106,13 +93,9 @@
 
 .contact-hero-content p {
   max-width: 720px;
-
   margin: 0;
-
   color: #3b5259;
-
   font-size: 16px;
-
   line-height: 1.7;
 }
 
@@ -152,17 +135,11 @@ background: #ffffff;
 
 .contact-main-container {
   width: 100%;
-
   max-width: 1400px;
-
   margin: 0 auto;
-
   display: grid;
-
   grid-template-columns: 37% 63%;
-
   gap: 24px;
-
   align-items: stretch;
 }
 
@@ -173,28 +150,19 @@ background: #ffffff;
 
 .contact-info {
   display: flex;
-
   flex-direction: column;
-
   gap: 22px;
   height: 100%;
 }
 
 .contact-info-card {
   min-height: 82px;
-
   display: flex;
-
   align-items: center;
-
   gap: 16px;
-
   padding: 12px 20px;
-
   background: #ffffff;
-
   border-radius: 9px;
-
   box-shadow: 0 3px 12px rgba(0, 80, 75, 0.09);
 }
 
@@ -203,23 +171,14 @@ background: #ffffff;
 
 .contact-info-icon {
   min-width: 42px;
-
   width: 42px;
-
   height: 42px;
-
   border-radius: 50%;
-
   display: flex;
-
   align-items: center;
-
   justify-content: center;
-
   color: #ffffff;
-
   background: #087d71;
-
   font-size: 21px;
 }
 
@@ -228,21 +187,15 @@ background: #ffffff;
 
 .contact-info-text h3 {
   margin: 0 0 4px;
-
   color: #075e59;
-
   font-size: 16px;
-
   font-weight: 700;
 }
 
 .contact-info-text p {
   margin: 0;
-
   color: #263e45;
-
   font-size: 14px;
-
   line-height: 1.5;
 }
 
@@ -311,21 +264,13 @@ height: 100%;
 .form-group input,
 .form-group textarea {
   width: 100%;
-
   border: 1px solid #d5e4e2;
-
   border-radius: 6px;
-
   outline: none;
-
   background: #ffffff;
-
   color: #263e45;
-
   font-family: inherit;
-
   font-size: 13px;
-
   transition: all 0.2s ease;
 }
 
