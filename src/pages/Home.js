@@ -240,7 +240,6 @@ function Home() {
 
 
         <div className="hero-features">
-
           <div>
             <FiShield />
             <span>
@@ -272,10 +271,7 @@ function Home() {
               24/7 Assistance
             </span>
           </div>
-
         </div>
-
-
         <button
           className="hero-arrow hero-right"
           onClick={nextSlide}
@@ -283,23 +279,16 @@ function Home() {
           <FiChevronRight />
         </button>
 
-
         <div className="hero-dots">
-
           {slides.map((_, index) => (
-
             <button
               key={index}
               className={currentSlide === index ? "active" : ""}
               onClick={() => setCurrentSlide(index)}
             />
-
           ))}
-
         </div>
-
       </section>
-
 
       {/* ================= CATEGORIES ================= */}
 
@@ -325,10 +314,8 @@ function Home() {
 
               <p>
                 {category.discount}
-              </p>
-
+              </p>        
             </Link>
-
           ))}
 
         </div>
@@ -339,18 +326,13 @@ function Home() {
       View All
       <FiArrowRight />
     </Link>
-
-  </div>
-
-      </section>
-
-
+    </div>
+        </section>
+      
       {/* ================= POPULAR MEDICINES ================= */}
 
       <section className="section-container">
-
         <div className="section-heading">
-
           <h2>
             POPULAR MEDICINES 
           </h2>
@@ -359,10 +341,7 @@ function Home() {
             View All
             <FiArrowRight />
           </Link>
-
         </div>
-
-
         <div className="product-grid">
 
           {products.map((product) => (
@@ -373,19 +352,14 @@ function Home() {
                 <FiHeart />
               </button>
 
-
               <div className="product-image">
-
                 <img
                   src={product.image}
                   alt={product.name}
                 />
 
               </div>
-
-
               <div className="product-info">
-
                 <h3>
                   {product.name}
                 </h3>
@@ -394,9 +368,7 @@ function Home() {
                   {product.quantity}
                 </p>
 
-
                 <div className="price-row">
-
                   <strong>
                     {product.price}
                   </strong>
@@ -410,31 +382,19 @@ function Home() {
                   </span>
 
                 </div>
-
-
                 <button className="cart-button">
-
                   <FiShoppingCart />
-
                   Add to Cart
-
                 </button>
 
               </div>
-
             </div>
-
           ))}
-
         </div>
-
       </section>
-
       <section className="section-container promo-layout">
-
         <div className="promo-banner">
     <div className="promo-content">
-
             <span>
               SPECIAL OFFER
             </span>

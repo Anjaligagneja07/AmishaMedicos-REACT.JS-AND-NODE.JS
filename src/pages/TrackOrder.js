@@ -13,11 +13,9 @@ function TrackOrder() {
         <p>
           Enter your order number to track your delivery.
         </p>
-
       </div>
 
       <div className="track-box">
-
         <input
           type="text"
           placeholder="Enter Order ID"

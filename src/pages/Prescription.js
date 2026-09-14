@@ -5,11 +5,6 @@ function Prescription() {
 
   return (
     <div className="inner-page">
-
-      <div className="breadcrumb">
-        Home / My Prescriptions
-      </div>
-
       <div className="page-header">
 
         <h1>

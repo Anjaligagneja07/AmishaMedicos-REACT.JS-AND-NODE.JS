@@ -4,11 +4,6 @@ function Profile() {
 
   return (
     <div className="inner-page">
-
-      <div className="breadcrumb">
-        Home / My Profile
-      </div>
-
       <div className="page-header">
         <h1>My Profile</h1>
         <p>Manage your personal information.</p>

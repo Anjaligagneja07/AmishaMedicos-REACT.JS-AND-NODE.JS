@@ -4,11 +4,6 @@ function Orders() {
 
   return (
     <div className="inner-page">
-
-      <div className="breadcrumb">
-        Home / My Orders
-      </div>
-
       <div className="page-header">
 
         <h1>
