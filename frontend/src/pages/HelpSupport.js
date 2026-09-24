@@ -1,11 +1,8 @@
 import React from "react";
-
 function HelpSupport() {
-
   return (
     <div className="inner-page">
       <div className="page-header"> 
-
         <h1>
           Help & Support
         </h1>
@@ -13,11 +10,9 @@ function HelpSupport() {
         <p>
           How can we help you?
         </p>
-
       </div>
-
+      
       <div className="content-card">
-
         <h2>
           Customer Support
         </h2>
@@ -29,9 +24,7 @@ function HelpSupport() {
         <p>
           Email us : support@amishamedicos.com
         </p>
-
       </div>
-
     </div>
   );
 }

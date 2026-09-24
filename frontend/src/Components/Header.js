@@ -1,19 +1,10 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-import {
-  FiMapPin,
-  FiSearch,
-  FiUser,
-  FiHeart,
-  FiShoppingCart,
-  FiChevronDown
-} from "react-icons/fi";
+import {FiMapPin,FiSearch,FiUser,FiHeart,FiShoppingCart,FiChevronDown} from "react-icons/fi";
 
 function Header() {
-
   const [accountOpen, setAccountOpen] = useState(false);
-
   return (
     <header className="main-header">
 
@@ -31,7 +22,6 @@ function Header() {
           </div>
         </Link>
 
-
         {/* LOCATION */}
         <div className="location-box">
 
@@ -41,7 +31,7 @@ function Header() {
             <small>Deliver to</small>
             <strong>New Delhi, 110001</strong>
           </div>
-
+   
           <FiChevronDown />
 
         </div>

@@ -28,7 +28,6 @@ function Profile() {
         </p>
 
       </div>
-
     </div>
   );
 }

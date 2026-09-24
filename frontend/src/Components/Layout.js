@@ -11,19 +11,13 @@ import "../styles/Layout.css";
 function Layout() {
   return (
     <div className="app">
-
       <TopBar />
-
       <Header />
-
       <Navbar />
-
       <main className="page-content">
         <Outlet />
       </main>
-
       <Footer />
-
     </div>
   );
 }
